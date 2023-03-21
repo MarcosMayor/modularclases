@@ -10,8 +10,8 @@ public class AreaPrisma {
 
 	public static void main(String[] args) {
 		ArrayList<Prisma> listaPrisma = new ArrayList<Prisma>();
-		final int numPrisma = 3;
-		for(int i=0; i<numPrisma; i++) {
+		final int cantPrisma = 3;
+		for(int i=0; i<cantPrisma; i++) {
 			insertList(listaPrisma);
 		}
 		imprimirValor(listaPrisma);
